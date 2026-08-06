@@ -38,7 +38,7 @@ As an open source pioneer of the Lakestream architecture, Apache Fluss adds a La
 
 Apache Fluss brings the following core capabilities to the traditional Lakehouse, creating a unified Lakestream foundation that makes both historical and real-time data readily available:
 
-- **Lakestream:** Long-term historical data resides in open data lake formats such as Apache Paimon, Apache Iceberg, Apache Hudi, and Lance, while Fluss serves the latest data in real time. With Union Read, agents can access everything from historical data to the latest state through a unified table view, avoiding fragmented context.
+- **Stream & Lakehouse Unification:** Long-term historical data resides in open data lake formats such as Apache Paimon, Apache Iceberg, Apache Hudi, and Lance, while Fluss serves the latest data in real time. With Union Read, agents can access everything from historical data to the latest state through a unified table view, avoiding fragmented context.
 - **Columnar Streaming Storage:** Built on the Apache Arrow columnar format, Fluss supports server-side column pruning, predicate pushdown, and partition pruning, reducing data reads and transfers for efficient streaming and real-time analytics.
 - **Real-time Updates and Point Queries:** Primary-key tables natively support streaming updates, partial updates, changelogs, key-value lookups, and Delta Join, allowing the same real-time data to serve both stream processing and point queries.
 - **Real-time Context for Agents:** Fluss unifies continuously updated real-time state with long-term historical data, giving AI agents fresh, complete, low-latency, and trustworthy context for real-time decisions and actions.
