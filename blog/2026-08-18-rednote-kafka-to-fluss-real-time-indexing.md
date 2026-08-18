@@ -100,7 +100,7 @@ Platform capabilities had to mature alongside the data path: table management, m
 
 ## From one critical pipeline to a shared real-time data platform
 
-Fluss is now running in Rednote's core production indexing path. According to the figures shared in the talk, a single table is already ingesting roughly 1 billion records and 10 TB per day, and the deployment has completed performance and stability validation.
+Fluss is now running in Rednote's core production indexing path. According to the figures shared in this blog post, a single table is already ingesting roughly 1 billion records and 10 TB per day, and the deployment has completed performance and stability validation.
 
 In the second half of 2026, Rednote plans to continue the progressive migration of existing Kafka-based index pipelines. The next phase is expected to span more than 100 tables and infrastructure measured in hundreds of thousands of CPU cores. The rollout will remain phased and controlled, allowing the old and new paths to hand off traffic gradually rather than through a high-risk cutover.
 
